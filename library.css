@@ -1,0 +1,93 @@
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+
+}
+form{
+  padding-top: 30px;
+border-collapse: collapse;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+th, td {
+padding: 20px;
+}
+
+tr:nth-child(even){background-color: gray;}
+
+th {
+  padding: 20px;
+  text-align: center;
+  background-color: pink;
+  color: white;
+}
+
+input[type=text], select {
+
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+div {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 55px;
+  background-color: #f2f2f2;
+  padding: 4px;
+  margin-right:300px;
+  margin-left: 300px;
+}
+.btn:not(:disabled):not(.disabled) {
+
+    cursor: pointer;
+}
+.btn-primary {
+
+  width: 130px;
+  color: #fff;
+  background-color: gray;
+  border-color: red;
+}
+.btn {
+
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+    }
